@@ -68,8 +68,7 @@ LimitNOFILE=10000
 [Install]
 WantedBy=multi-user.target
 EOF
----
-
+```
 ## Register and start service
 ```
 sudo systemctl daemon-reload && \
